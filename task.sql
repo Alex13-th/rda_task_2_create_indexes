@@ -1,4 +1,3 @@
-CREATE DATABASE ShopDB;
 USE ShopDB;
 
 CREATE TABLE Products (
@@ -16,7 +15,7 @@ CREATE TABLE Customers (
     LastName VARCHAR(50),
     Email VARCHAR(50),
     Address VARCHAR(100),
-    PRIMARY KEY(ID),
+    PRIMARY KEY(ID)
 );
 
 CREATE TABLE Orders (
